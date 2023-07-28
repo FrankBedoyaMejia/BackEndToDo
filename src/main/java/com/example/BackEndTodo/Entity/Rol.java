@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class Rol {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
     @Column
     @NonNull
     private String name;
